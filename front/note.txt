@@ -1,0 +1,17 @@
+2.BILET
+Layihə Tələblər:
+ - Home və Add səhifələri React ilə yığılacaq.
+ - Front-end tərəfdə tələb olunanlar 
+   - Responsive(Desktop,Mobil)-20bal
+   - Routing-15bal
+   - Wishlist-15bal
+   - Detail Page-5 bal
+   - Filter (Default,A-Z,Z-A,Price) -15bal
+- Back-end hissəsində tələb olunanlar 
+   - MongoDB Configuration - CRUD (GET,POST,DELETE) - with Node(ExpressJS)-30bal
+Əlavələr: 
+- Scss istifadəsi
+- Basket
+- Helmet
+-Search by Name
+-Formik-Yup

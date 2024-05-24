@@ -1,0 +1,93 @@
+.menu{
+    background-image: url("./menu-bg\ \(1\).jpg");
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+
+    .see{
+        font-size: 18px;
+        font-weight: 400;
+        background-color:RGB(255, 197, 21);
+        padding: 10px 40px;
+        border-color: transparent;
+        text-transform: uppercase;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       margin: 20px auto;
+        color: black;
+    }
+}
+.menu_head{
+       text-align: center;
+    span{
+        width: 300px;
+       background-color: yellow;
+        height: 3px;
+    }
+    h3{
+        font-size: 48px;
+        font-weight: 500;
+        padding: 20px 0;
+        color: white;
+    }
+}
+.menu_wrap{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 0;
+   
+    a{
+        text-decoration: none;
+        color: white;
+        font-size: 17px;
+        font-weight: 500;
+        cursor: pointer;
+        &:hover{
+            color: RGB(255, 197, 21);
+        }
+    }
+}
+.menu_demo{
+    color: white;
+    align-items: end;
+    padding-bottom: 20px ;
+    h6{
+        font-weight: 500;
+        font-size: 18px;
+       
+    }
+    p{
+        font-size: 15px;
+        font-weight: 500;
+        color: RGB(126, 126, 126);
+        font-style: italic;
+    }
+
+    .menu_flex{
+        display: flex;
+        span{
+            padding: 0 15px;
+        }
+        h5{
+            font-size: 17px;
+            font-weight: 400;
+        }
+    }
+}
+.menu_map{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    @media (max-width:900px) {
+        grid-template-columns: 1fr ;
+        width: 100%;
+    }
+}
+.menu_demos{
+    padding-top: 30px;
+   
+}

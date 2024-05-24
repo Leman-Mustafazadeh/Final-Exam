@@ -1,0 +1,21 @@
+.detail{
+    text-align: center;
+    padding: 30px 0;
+    h6{
+        font-size: 20px;
+    }
+    p{
+        font-size: 20px;
+
+    }
+    .detail_flex{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    button{
+        background-color: pink;
+        border-color: transparent;
+        
+    }
+}
