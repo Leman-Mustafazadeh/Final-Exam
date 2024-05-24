@@ -8,15 +8,19 @@ position: absolute;
         display: flex;
         align-items: center;
         justify-content: space-between;
-        .tab{ display: none;
+        .tab{ i{
+            display: none;
+            @media (max-width:700px) {
+                display: block;
+            }
+        }
+           
             color: white;
             font-size: 30px;
             display: flex;
             align-items: center;
             justify-content: center;
-            @media (max-width:700px) {
-                display: block;
-            }
+           
 
         }
         h3{
