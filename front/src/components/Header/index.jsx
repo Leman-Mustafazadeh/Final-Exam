@@ -18,14 +18,15 @@ const Header = () => {
                     <li><a href="">Contact</a></li>
                     <li><a href=""><Link to={"/wishlistpage"}>Wishlist</Link></a></li>
                     <li><a href=""><Link to={"/addpage"}>Add Page</Link></a></li>
+                    <li><a href=""><Link to={"/basketpage"}>Basket</Link></a></li>
                 </ul>
 
                 <div className={styles.right}>
                     <h4>Reservations</h4>
                     <p><i class="fa-solid fa-phone"></i> 652-345 3222 11</p>
                 </div>
-                <div className={styles.tab}>
-                  <FormatAlignJustifyIcon/>
+                <div  className={styles.tab}>
+                 <i class="fa-solid fa-bars"></i>
                 </div>
             </div>
     

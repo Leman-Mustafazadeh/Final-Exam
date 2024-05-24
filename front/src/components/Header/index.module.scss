@@ -8,6 +8,17 @@ position: absolute;
         display: flex;
         align-items: center;
         justify-content: space-between;
+        .tab{ display: none;
+            color: white;
+            font-size: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            @media (max-width:700px) {
+                display: block;
+            }
+
+        }
         h3{
             font-size: 36px;
             color:  #FFFFFF;
@@ -68,16 +79,6 @@ position: absolute;
                 font-weight: 600;
             }
         }
-        .tab{
-            display: none;
-            color: white;
-            font-size: 30px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            @media (max-width:700px) {
-                display: block;
-            }
-        }
+      
     }
 }

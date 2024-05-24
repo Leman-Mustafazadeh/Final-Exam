@@ -1,0 +1,20 @@
+.wish{
+    display: flex;
+    gap: 20px;
+    padding: 150px 0;
+    .wish_head{
+        border: 1px solid green;
+        padding: 20px ;
+        h5{
+            font-size: 30px;
+            font-weight: 700;
+        }
+        p{
+            font-size: 20px;
+            font-weight: 500;
+        }
+    }
+    button{
+        margin-right: 10px;
+    }
+}

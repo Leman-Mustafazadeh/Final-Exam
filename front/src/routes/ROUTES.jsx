@@ -5,6 +5,7 @@ import OurServices from "../components/OurServices";
 import Testimonials from "../components/Testimonials";
 import Welcome from "../components/Welcome";
 import AddPage from "../pages/AddPage";
+import BasketPage from "../pages/BasketPage";
 import DetailMenu from "../pages/DetailMenu";
 import Home from "../pages/Home";
 import PulseRouter from "../pages/PulseRouter";
@@ -52,6 +53,10 @@ export const ROUTES = [{
         {
             path:"addpage",
             element:<AddPage/>
+        },
+        {
+            path:"basketpage",
+            element:<BasketPage/>
         }
     ]
 }]
